@@ -9,6 +9,7 @@ import eight from "../assets/svg/projects/eight.svg";
 import paytmmall from "../assets/svg/projects/paytmmall.svg";
 import freshly from "../assets/svg/projects/freshly.svg";
 import timer from "../assets/svg/projects/timer.svg";
+import indiaMart from "../assets/svg/projects/indiaMart.svg";
 
 export const projectsData = [
   {
@@ -31,8 +32,19 @@ export const projectsData = [
     demo: "https://clonefreshly.netlify.app/",
     image: freshly,
   },
+
   {
     id: 3,
+    projectName: "IndiaMart-Clone",
+    projectDesc:
+      "This project involves the providing cosmetics through the nearest store",
+    tags: ["React", "Redux"],
+    code: "https://github.com/Sagar160301/IndiaMart",
+    demo: "https://heroic-zabaione-a1a115.netlify.app/",
+    image: indiaMart,
+  },
+  {
+    id: 4,
     projectName: "Timer",
     projectDesc:
       "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
@@ -41,16 +53,6 @@ export const projectsData = [
     demo: "https://googletimer.vercel.app/",
     image: timer,
   },
-  //   {
-  //     id: 4,
-  //     projectName: "Android Patient Tracker",
-  //     projectDesc:
-  //       "This project involves the development of an Android application for viewing and managing patient data.",
-  //     tags: ["Flutter", "Firebase"],
-  //     code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //     demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //     image: four,
-  //   },
   //   {
   //     id: 5,
   //     projectName: "E-Commerce App",
