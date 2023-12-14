@@ -2,6 +2,6 @@ export const aboutData = {
   title: "Who I am",
   description1: "My name's Sagar. I'm a Full Stack Web Developer",
   description2:
-    "As a teenager at school, I was the kid other students approached about issues with their phones or laptop. I was the go-to guy for fixing resolving any technical problems.. I spent my leisure hours reading books and listening music. I love to learn and explore new arenas.",
+    "Passionate Full Stack Web Developer with 1.6+ years of hands-on experience and a fervent enthusiasm for crafting dynamic and user-centric web solutions. Proven ability to translate intricate concepts into efficient, scalable code. Committed to staying abreast of industry trends and continuously enhancing skills to deliver cutting-edge projects. Excited about leveraging my passion and expertise to contribute to impactful web development initiatives.",
   image: 1,
 };
