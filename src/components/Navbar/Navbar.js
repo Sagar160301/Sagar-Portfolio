@@ -144,6 +144,9 @@ function Navbar() {
           {toggle ? (
             <WbSunnyIcon
               className="theme light"
+              style={{
+                cursor:"pointer",
+              }}
               onClick={() => {
                 handleToggle();
               }}
@@ -151,6 +154,9 @@ function Navbar() {
           ) : (
             <NightsStayIcon
               className="theme dark"
+              style={{
+                cursor:"pointer"
+              }}
               onClick={() => {
                 handleToggle();
               }}
