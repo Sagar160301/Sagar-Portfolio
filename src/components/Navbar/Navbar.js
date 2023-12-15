@@ -89,7 +89,7 @@ function Navbar() {
       borderRadius: "78.8418px",
       background: theme.secondary,
       color: theme.primary,
-      width: "85%",
+      width: "95%",
       height: "60px",
       display: "flex",
       alignItems: "center",
@@ -231,14 +231,14 @@ function Navbar() {
               </NavLink>
             </Fade>
 
-            {/* <Fade left>
-              <NavLink to="/#projects" smooth={true} spy="true" duration={2000}>
+            <Fade left>
+              <NavLink to="/#experience" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <BsFillGearFill className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}></span>
+                  <span className={classes.drawerLinks}>Experiences</span>
                 </div>
               </NavLink>
-            </Fade> */}
+            </Fade>
 
             <Fade left>
               <NavLink to="/#projects" smooth={true} spy="true" duration={2000}>

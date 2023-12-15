@@ -10,8 +10,39 @@ import paytmmall from "../assets/svg/projects/paytmmall.svg";
 import freshly from "../assets/svg/projects/freshly.svg";
 import timer from "../assets/svg/projects/timer.svg";
 import indiaMart from "../assets/svg/projects/indiaMart.svg";
-
+import resume from "../assets/svg/projects/resume.svg";
+import coding from "../assets/svg/projects/coding-platform.svg"
 export const projectsData = [
+  {
+    id: 1,
+    projectName: "Online Coding Platform",
+    projectDesc:
+      "Focus towards the modern market and demanding of people we have created this web site.",
+    tags: ["React-Query","PostgreSQL", "Apollo-GraphQL"],
+    code: "https://github.com/masai-codes/online-coding-platform",
+    demo: "https://cp.masaischool.com/",
+    image: coding,
+  },
+  {
+    id: 2,
+    projectName: "Masai Course",
+    projectDesc:
+      "Focus towards the modern market and demanding of people we have created this web site.",
+    tags: ["SQL","GraphQL", "ReactJs","NextJs"],
+    code: "https://github.com/masai-codes/experience-ui",
+    demo: "https://students.masaischool.com/",
+    image: paytmmall,
+  },
+  {
+    id: 3,
+    projectName: "Resume Builder",
+    projectDesc:
+      "Focus towards the modern market and demanding of people we have created this web site.",
+    tags: ["ExpressJs", "Chakra-UI","NextJs"],
+    code: "https://github.com/masai-codes/resume-builder-ui",
+    demo: "https://resume-builder-test-new.masaischool.com/",
+    image: resume,
+  },
   {
     id: 1,
     projectName: "Paytmamll-Clone",
