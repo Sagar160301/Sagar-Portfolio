@@ -10,8 +10,9 @@ import paytmmall from "../assets/svg/projects/paytmmall.svg";
 import freshly from "../assets/svg/projects/freshly.svg";
 import timer from "../assets/svg/projects/timer.svg";
 import indiaMart from "../assets/svg/projects/indiaMart.svg";
-import resume from "../assets/svg/projects/resume.svg";
+import resume from "../assets/svg/projects/Resume-Builder.svg";
 import coding from "../assets/svg/projects/coding-platform.svg"
+import MasaiCourse from "../assets/svg/projects/Masai-course.svg"
 export const projectsData = [
   {
     id: 1,
@@ -31,7 +32,7 @@ export const projectsData = [
     tags: ["SQL","GraphQL", "ReactJs","NextJs"],
     code: "https://github.com/masai-codes/experience-ui",
     demo: "https://students.masaischool.com/",
-    image: paytmmall,
+    image: MasaiCourse,
   },
   {
     id: 3,

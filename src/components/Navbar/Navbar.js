@@ -143,7 +143,7 @@ function Navbar() {
         <div id="topMargin">
           {toggle ? (
             <WbSunnyIcon
-              className="theme light"
+              className={`theme light ${classes.navMenu}`}
               style={{
                 cursor:"pointer",
               }}
@@ -153,7 +153,7 @@ function Navbar() {
             />
           ) : (
             <NightsStayIcon
-              className="theme dark"
+              className={`theme dark ${classes.navMenu}`}
               style={{
                 cursor:"pointer"
               }}
