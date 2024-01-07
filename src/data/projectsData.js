@@ -16,7 +16,7 @@ import MasaiCourse from "../assets/svg/projects/Masai-course.svg"
 export const projectsData = [
   {
     id: 1,
-    projectName: "Online Coding Platform",
+    projectName: "Online Coding Platform(Masai School)",
     projectDesc:
       "Focus towards the modern market and demanding of people we have created this web site.",
     tags: ["React-Query","PostgreSQL", "Apollo-GraphQL"],
@@ -26,7 +26,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    projectName: "Masai Course",
+    projectName: "Masai Course(Masai School)",
     projectDesc:
       "Focus towards the modern market and demanding of people we have created this web site.",
     tags: ["SQL","GraphQL", "ReactJs","NextJs"],
@@ -36,7 +36,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "Resume Builder",
+    projectName: "Resume Builder(Masai School)",
     projectDesc:
       "Focus towards the modern market and demanding of people we have created this web site.",
     tags: ["ExpressJs", "Chakra-UI","NextJs"],
